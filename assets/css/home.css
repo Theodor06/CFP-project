@@ -1235,3 +1235,91 @@ section img {
   color: goldenrod;
   text-shadow: 5px 5px black;
 }
+
+@media only screen and (max-width: 640px) {
+  body{
+    width: 100%;
+  }
+  .nav-bar{
+    width: 100%;
+  }
+  .info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-container{
+    height: 1600px;
+  }
+  .info-container h2{
+    width: 500px;
+    text-align: center;
+  }
+  .testimonials-container{
+    height: 1000px;
+  }
+  .testi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -60px;
+  }
+  .testimonial-text{
+    width: 400px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  
+.navigation-manual {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 520px;
+  margin-left: 100px;
+}
+
+.manual-btn {
+  border: 2px solid goldenrod;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.manual-btn:hover {
+  background: goldenrod;
+}
+
+
+
+/*css for automatic navigation*/
+
+.navigation-auto {
+  position: absolute;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 520px;
+  margin-left: 100px;
+}
+
+.navigation-auto div {
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 20px;
+}
+.programs-container{
+  width: 100%;
+}
+
+}
