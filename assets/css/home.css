@@ -1210,22 +1210,28 @@ section img {
 }
 
 .affiliate-image{
-  background-color: red;
-  height: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: black;
+  background: url(/assets/images/affiliate-img.jpg);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin: 20px;
-  border: 2px solid red;
+  border-radius: 10px;
 }
 
 .affiliate-image h1{
   background-color: white;
-  padding: 30px;
-  mix-blend-mode: screen;
-  font-size: 2rem;
+  font-size: 3rem;
   border-radius: 8px;
   box-shadow: 2px 2px 5px white;
-  opacity: 0.9;
+  opacity: 0.5;
+  width: 300px;
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: goldenrod;
+  text-shadow: 5px 5px black;
 }
