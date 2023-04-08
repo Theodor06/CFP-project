@@ -1245,9 +1245,8 @@ section img {
   }
   .nav-bar{
     width: 640px;
-    font-size: 1.5em;
-    height: 100px;
   }
+  
   .second-container{
     width: 640px;
   }
@@ -1555,4 +1554,8 @@ section img {
   overflow: hidden;
   margin-top: 50px
 }
+.header-bar{
+    font-size: 2em;
+    margin-top: -49px;
+  }
 }
