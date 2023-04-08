@@ -1277,7 +1277,7 @@ section img {
   display: flex;
   justify-content: center;
   margin-top: 520px;
-  margin-left: 100px;
+  margin-left: 145px;
 }
 
 .manual-btn {
@@ -1306,7 +1306,7 @@ section img {
   display: flex;
   justify-content: center;
   margin-top: 520px;
-  margin-left: 100px;
+  margin-left: 145px;
 }
 
 .navigation-auto div {
@@ -1536,5 +1536,11 @@ section img {
   box-shadow: 2px 2px 5px black;
   border-bottom: 2px solid black;
 }
-
+.testimonial-slider {
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 50px
+}
 }
