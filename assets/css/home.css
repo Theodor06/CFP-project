@@ -1336,10 +1336,10 @@ section img {
   margin-left: 350px;
 }
 .popup .content{
-  margin-top: 0px;
-  width: 400px;
-  height: 420px;
-  font-size: 0.7em;
+  margin-top: 10px;
+  width: 500px;
+  height: 600px;
+  font-size: 1em;
 }
 .popup .overlay{
     position: fixed;
@@ -1353,10 +1353,10 @@ section img {
 }
 
 .popup2 .content2{
-  width: 400px;
-  height: 480px;
-  margin-top: 0px;
-  font-size: 0.7em;
+  margin-top: 10px;
+  width: 500px;
+  height: 600px;
+  font-size: 1em;
 }
 .popup2 .overlay2{
     position: fixed;
@@ -1369,10 +1369,10 @@ section img {
     display: none;
 }
 .popup3 .content3{
-  margin-top: 0px;
-  width: 400px;
-  height: 480px;
-  font-size: 0.7em;
+  margin-top: 10px;
+  width: 500px;
+  height: 600px;
+  font-size: 0.9em;
 }
 .popup3 .overlay3{
     position: fixed;
@@ -1385,10 +1385,10 @@ section img {
     display: none;
 }
 .popup4 .content4{
-  margin-top: 0px;
-  width: 400px;
-  height: 480px;
-  font-size: 0.7em;
+  margin-top: 10px;
+  width: 500px;
+  height: 600px;
+  font-size: 0.9em;
 }
 .popup4 .overlay4{
     position: fixed;
@@ -1401,10 +1401,10 @@ section img {
     display: none;
 }
 .popup5 .content5{
-  margin-top: 0px;
-  width: 400px;
-  height: 480px;
-  font-size: 0.7em;
+  margin-top: 10px;
+  width: 500px;
+  height: 600px;
+  font-size: 0.9em;
 }
 .popup5 .overlay5{
     position: fixed;
@@ -1417,10 +1417,10 @@ section img {
     display: none;
 }
 .popup6 .content6{
-  margin-top: 0px;
-  width: 400px;
-  height: 400px;
-  font-size: 0.7em;
+  margin-top: 10px;
+  width: 500px;
+  height: 480px;
+  font-size: 0.9em;
 }
 .popup6 .overlay6{
     position: fixed;
@@ -1431,7 +1431,8 @@ section img {
     background: rgba(0, 0, 0, 0.7);
     z-index: 1;
     display: none;
-}.popupc .contentc{
+}
+ .popupc .contentc{
   margin-top: 0px;
   width: 450px;
   height: 480px;
