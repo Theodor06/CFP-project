@@ -1238,10 +1238,14 @@ section img {
 
 @media only screen and (max-width: 640px) {
   body{
-    width: 100%;
+    width: 620px;
+    padding: 20px;
   }
   .nav-bar{
-    width: 100%;
+    width: 640px;
+  }
+  .second-container{
+    width: 640px;
   }
   .info-container{
     display: flex;
@@ -1249,6 +1253,7 @@ section img {
     align-items: center;
   }
   .about-container{
+    width: 640px;
     height: 1600px;
   }
   .info-container h2{
@@ -1256,6 +1261,7 @@ section img {
     text-align: center;
   }
   .testimonials-container{
+    width: 640px;
     height: 1000px;
   }
   .testi{
@@ -1319,7 +1325,7 @@ section img {
   margin-right: 20px;
 }
 .programs-container{
-  width: 100%;
+  width: 640px;
 }
 .text-cfp{
   width: 400px;
