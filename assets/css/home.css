@@ -1210,7 +1210,7 @@ section img {
 }
 
 .affiliate-image{
-  background: url(assets/images/affiliate-img.jpg);
+  background-image: url(/assets/images/affiliate-img.jpg);
   height: 650px;
   background-repeat: no-repeat;
   background-size: cover;
