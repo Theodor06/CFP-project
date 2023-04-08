@@ -1235,7 +1235,68 @@ section img {
   color: goldenrod;
   text-shadow: 5px 5px black;
 }
-
+.affiliate-container p{
+  color: white;
+  text-align: center;
+  padding-left:300px;
+  padding-right:300px;
+}
+.aff-btn{
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(18, 18, 18);
+  color: white;
+  box-shadow: 2px 2px 5px goldenrod;
+  border-bottom: 2px solid goldenrod;
+  font-weight: 600;
+}
+.aff-btn:hover {
+  transition: 0.5s all ease-in-out;
+  background-color: rgb(150, 150, 150);
+  color: black;
+  box-shadow: 2px 2px 5px rgb(255, 255, 255);
+  border-bottom: 2px solid black;
+}
+.foot-container{
+  width: 100%;
+  background-color: rgb(171, 168, 3);
+}
+.insta-container a{
+  font-size: 1.5em;
+  color: white;
+}
+.insta-container a:hover{
+  font-size: 1.5em;
+  color: purple;
+  transition: 0.5s;
+}
+.insta-container{
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid white
+}
+.footer-part p{
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.footer-part a{
+  font-size: 0.8em;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+.footer-part a:hover{
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.footer-part{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 /*Media querys part (mobile)*/
 
 @media only screen and (max-width: 640px) {
@@ -1554,4 +1615,68 @@ section img {
   overflow: hidden;
   margin-top: 50px
 }
+    .affiliate-container{
+    width: 100%;
+  }
+  .affiliate-container p{
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  .aff-btn{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    box-shadow: 2px 2px 5px goldenrod;
+    border-bottom: 2px solid goldenrod;
+    font-weight: 600;
+  }
+  .aff-btn:hover {
+    transition: 0.5s all ease-in-out;
+    background-color: rgb(150, 150, 150);
+    color: black;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+  }
+  .foot-container{
+    width: 100%;
+    background-color: rgb(171, 168, 3);
+  }
+  .insta-container a{
+    font-size: 2em;
+    color: white;
+  }
+  .insta-container a:hover{
+    font-size: 1.5em;
+    color: purple;
+    transition: 0.5s;
+  }
+  .insta-container{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white
+  }
+  .footer-part p{
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+  .footer-part a{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+  }
+  .footer-part a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .footer-part{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }
