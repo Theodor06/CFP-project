@@ -1236,6 +1236,8 @@ section img {
   text-shadow: 5px 5px black;
 }
 
+/*Media querys part (mobile)*/
+
 @media only screen and (max-width: 640px) {
   body{
     width: 620px;
@@ -1243,6 +1245,8 @@ section img {
   }
   .nav-bar{
     width: 640px;
+    font-size: 1.5em;
+    height: 100px;
   }
   .second-container{
     width: 640px;
