@@ -1321,5 +1321,220 @@ section img {
 .programs-container{
   width: 100%;
 }
+.text-cfp{
+  width: 400px;
+}
+.text-cfp img{
+  width: 100px;
+  height: 100px;
+  margin-left: 350px;
+}
+.popup .content{
+  margin-top: 0px;
+  width: 400px;
+  height: 420px;
+  font-size: 0.7em;
+}
+.popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup2 .content2{
+  width: 400px;
+  height: 480px;
+  margin-top: 0px;
+  font-size: 0.7em;
+}
+.popup2 .overlay2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+.popup3 .content3{
+  margin-top: 0px;
+  width: 400px;
+  height: 480px;
+  font-size: 0.7em;
+}
+.popup3 .overlay3{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+.popup4 .content4{
+  margin-top: 0px;
+  width: 400px;
+  height: 480px;
+  font-size: 0.7em;
+}
+.popup4 .overlay4{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+.popup5 .content5{
+  margin-top: 0px;
+  width: 400px;
+  height: 480px;
+  font-size: 0.7em;
+}
+.popup5 .overlay5{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+.popup6 .content6{
+  margin-top: 0px;
+  width: 400px;
+  height: 400px;
+  font-size: 0.7em;
+}
+.popup6 .overlay6{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}.popupc .contentc{
+  margin-top: 0px;
+  width: 450px;
+  height: 480px;
+  font-size: 0.7em;
+  margin-top: 0px;
+}
+.popupc .overlayc{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.form .fname {
+  background-color: rgb(25, 25, 25);
+  border: 0px;
+  border-bottom: 2px solid goldenrod;
+  font-size: 16px;
+  width: 270px;
+  height: 25px;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding-left: 15px;
+  box-shadow: 2px 2px 5px goldenrod;
+}
+.form .lname {
+  background-color: rgb(25, 25, 25);
+  border: 0px;
+  border-bottom: 2px solid goldenrod;
+  font-size: 16px;
+  width: 290px;
+  height: 25px;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding-left: 15px;
+  box-shadow: 2px 2px 5px goldenrod;
+}
+.form .mail {
+  background-color: rgb(25, 25, 25);
+  border: 0px;
+  border-bottom: 2px solid goldenrod;
+  font-size: 16px;
+  width: 270px;
+  height: 25px;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding-left: 15px;
+  box-shadow: 2px 2px 5px goldenrod;
+}
+.form .phone {
+  background-color: rgb(25, 25, 25);
+  border: 0px;
+  border-bottom: 2px solid goldenrod;
+  font-size: 16px;
+  width: 290px;
+  height: 25px;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding-left: 15px;
+  box-shadow: 2px 2px 5px goldenrod;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contentc h1 {
+  text-shadow: 2px 2px 6px darkgoldenrod;
+}
+.form textarea {
+  background-color: rgb(25, 25, 25);
+  border: 0px;
+  border-bottom: 2px solid goldenrod;
+  width: 370px;
+  height: 150px;
+  max-width: 370px;
+  max-height: 150px;
+  overflow: auto;
+  font-size: 15px;
+  color: whitesmoke;
+  border-radius: 20px;
+}
+
+.sub-btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(18, 18, 18);
+  color: white;
+  box-shadow: 2px 2px 5px goldenrod;
+  border-bottom: 2px solid goldenrod;
+}
+.sub-btn:hover{
+  transition: 0.5s all ease-in-out;
+  background-color: rgb(150, 150, 150);
+  color: black;
+  box-shadow: 2px 2px 5px black;
+  border-bottom: 2px solid black;
+}
 
 }
